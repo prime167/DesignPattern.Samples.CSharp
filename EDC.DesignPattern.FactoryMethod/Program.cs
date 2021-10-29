@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Reflection;
+using EDC.DesignPattern.Builder;
 using EDC.DesignPattern.FactoryMethod.v1;
 using EDC.DesignPattern.FactoryMethod.v3;
 
