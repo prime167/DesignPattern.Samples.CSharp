@@ -25,7 +25,7 @@ namespace EDC.DesignPattern.Builder
 
         public static object GetLoggerFactoryInstance()
         {
-            string assemblyName = AppConfigHelper.GetLoggerFactoryName();
+            string assemblyName = GetLoggerFactoryName();
             Type type = Type.GetType(assemblyName);
 
             var instance = Activator.CreateInstance(type);
