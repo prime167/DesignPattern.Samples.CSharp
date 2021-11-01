@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace EDC.DesignPattern.FactoryMethod.v2
+﻿namespace EDC.DesignPattern.FactoryMethod.v2
 {
     public class DatabaseLoggerFactory : ILoggerFactory
     {

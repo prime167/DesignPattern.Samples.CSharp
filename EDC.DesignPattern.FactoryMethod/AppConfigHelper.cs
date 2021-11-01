@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace EDC.DesignPattern.Builder
+namespace EDC.DesignPattern.FactoryMethod
 {
     public class AppConfigHelper
     {
@@ -14,7 +9,7 @@ namespace EDC.DesignPattern.Builder
             string factoryName = null;
             try
             {
-                factoryName = System.Configuration.ConfigurationManager.AppSettings["LoggerFactory"];
+                factoryName = ConfigurationHelper.GetByName("LoggerFactory");
             }
             catch (Exception ex)
             {

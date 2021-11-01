@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Reflection;
-using EDC.DesignPattern.Builder;
-using EDC.DesignPattern.FactoryMethod.v1;
+﻿using EDC.DesignPattern.FactoryMethod.v1;
 using EDC.DesignPattern.FactoryMethod.v3;
 
 namespace EDC.DesignPattern.FactoryMethod
@@ -22,8 +15,6 @@ namespace EDC.DesignPattern.FactoryMethod
 
             // v3.0
             ClientVersion3();
-
-            Console.ReadKey();
         }
 
         public static void ClientVersion1()
